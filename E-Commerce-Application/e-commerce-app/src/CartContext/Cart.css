@@ -1,0 +1,32 @@
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cart-item-image {
+    width: 100px;
+    height: auto;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.cart-item-title {
+    margin-top: 0;
+}
+
+.cart-item-price,
+.cart-item-quantity {
+    margin-bottom: 0;
+}
